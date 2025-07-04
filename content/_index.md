@@ -1,14 +1,16 @@
 ---
 title: "Higgs Homestead"
 description: "Your perfect getaway awaits 20 minutes from downtown Fort Worth, TX"
+hero_image: "/images/homepage/blue-tiny-home-1.webp"
 ---
 
 # Welcome to Higgs Homestead
 
-Where Texas hospitality meets farm life! Escape to our peaceful retreat and experience the best of both worlds: comfortable accommodations and the joy of interacting with our beloved farm family. Meet our gentle Highland cow, friendly mini horse, and entertaining chickens during your stay. Perfect for families, animal lovers, and anyone seeking a unique Texas getaway that combines relaxation with authentic farm experiences.
+Where Texas hospitality meets farm life! Escape to our peaceful retreat on nearly 10 acres and experience the best of both worlds: comfortable accommodations and the joy of interacting with our beloved farm family. Meet our gentle Highland cow, friendly mini horse, and entertaining chickens during your stay. Perfect for families, animal lovers, and anyone seeking a unique Texas getaway that combines relaxation with authentic farm experiences.
 
 ## Why Choose Us?
 
+- **Nearly 10 Acres** - Plenty of space to roam, explore, and truly escape
 - **On-Site Owners** - We live here and personally facilitate all animal interactions
 - **Guided Farm Experience** - Learn about each animal's personality and enjoy safe, supervised visits
 - **Close to Fort Worth** - Just 20 minutes from downtown while feeling worlds away
