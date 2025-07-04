@@ -1,0 +1,31 @@
+baseURL = 'https://higgshomestead.com'
+languageCode = 'en-us'
+title = 'Higgs Homestead'
+
+[params]
+description = 'Welcome to Higgs Homestead - where Texas hospitality meets farm life! Escape to our peaceful retreat and experience the best of both worlds: comfortable accommodations and the joy of interacting with our beloved farm family. Meet our gentle Highland cow, friendly mini horse, and entertaining chickens during your stay. Perfect for families, animal lovers, and anyone seeking a unique Texas getaway that combines relaxation with authentic farm experiences.'
+phone = '(817) 727-2129'
+email = 'homesbyhiggs@gmail.com'
+
+[params.social]
+instagram = 'https://www.instagram.com/higgshomestead/'
+facebook = 'https://www.facebook.com/profile.php?id=61577084707758'
+airbnb = 'https://www.airbnb.com/users/show/81290702'
+
+[[menu.main]]
+name = 'Home'
+url = '/'
+weight = 1
+
+[[menu.main]]
+name = 'About'
+url = '/about'
+weight = 2
+
+[[menu.main]]
+name = 'Things to Do'
+url = '/things-to-do'
+weight = 3
+
+[markup.goldmark.renderer]
+unsafe = true

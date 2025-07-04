@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Higgs Homestead</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Higgs Homestead</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/_things-to-do/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/_things-to-do/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mountain View Rentals</title>
+      <link>http://localhost:1313/_about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/_about/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-mountain-view-rentals&#34;&gt;Welcome to Mountain View Rentals&lt;/h1&gt;&#xA;&lt;p&gt;Escape to the mountains and experience the perfect blend of comfort and adventure. Our carefully selected properties offer stunning views, modern amenities, and unforgettable experiences.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-choose-us&#34;&gt;Why Choose Us?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Premium Locations&lt;/strong&gt; - Handpicked properties in Colorado&amp;rsquo;s most beautiful settings&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Modern Comfort&lt;/strong&gt; - Fully equipped with everything you need&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Personal Service&lt;/strong&gt; - We&amp;rsquo;re here to make your stay extraordinary&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Local Expertise&lt;/strong&gt; - Insider knowledge of the best activities and hidden gems&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ready-to-book&#34;&gt;Ready to Book?&lt;/h2&gt;&#xA;&lt;p&gt;Contact us today to plan your perfect mountain getaway.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
