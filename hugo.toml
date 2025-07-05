@@ -21,12 +21,12 @@ weight = 1
 
 [[menu.main]]
 name = 'About'
-url = '/_about'
+url = '/about'
 weight = 2
 
 [[menu.main]]
 name = 'Things to Do'
-url = '/_things-to-do'
+url = '/things-to-do'
 weight = 3
 
 [markup.goldmark.renderer]
