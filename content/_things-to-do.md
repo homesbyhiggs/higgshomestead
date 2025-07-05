@@ -1,78 +1,86 @@
 ---
 title: "Things to Do"
-description: "Discover amazing activities and attractions near our mountain rentals"
+description: "Discover amazing activities and attractions near Higgs Homestead in Fort Worth, Texas"
 ---
 
-# Things to Do in the Colorado Mountains
+# Things to Do Near Higgs Homestead
 
-Our rentals are perfectly positioned to explore some of Colorado's most amazing outdoor adventures and attractions. Here's what awaits you:
+Located just 20 minutes from downtown Fort Worth with easy access to I-35, I-20, and US 287, our homestead puts you in the perfect spot to explore North Texas attractions while enjoying authentic farm life.
 
-## Outdoor Adventures
+## On-Site Farm Activities
 
-### Hiking & Nature
-- **Rocky Mountain National Park** - World-class hiking trails and wildlife viewing
-- **Local Trail Networks** - Hundreds of miles of trails for all skill levels
-- **Scenic Drives** - Breathtaking mountain passes and overlooks
-- **Wildlife Watching** - Elk, deer, mountain goats, and more
+### Meet Our Animals
+- **Highland Cow Interactions** - Meet our gentle giant and learn about Highland cattle
+- **Mini Horse Visits** - Perfect for all ages, our friendly mini horse loves attention
+- **Chicken Feeding** - Help feed our flock and collect fresh eggs
+- **Farm Tours** - Explore all 10 acres with our on-site owners as guides
 
-### Water Activities
-- **Mountain Lakes** - Crystal clear lakes perfect for swimming and fishing
-- **River Rafting** - Thrilling whitewater adventures
-- **Kayaking & Paddleboarding** - Peaceful paddling on alpine lakes
-- **Fishing** - World-class trout fishing in pristine mountain streams
+## Fort Worth Attractions (20 minutes away)
 
-### Winter Sports
-- **Skiing & Snowboarding** - Access to premier Colorado ski resorts
-- **Snowshoeing** - Explore winter wonderlands on marked trails
-- **Cross-Country Skiing** - Miles of groomed Nordic trails
-- **Winter Photography** - Capture stunning snow-covered landscapes
+### Historic & Cultural
+- **Fort Worth Stockyards** - Historic cattle drives, rodeos, and Western culture
+- **Sundance Square** - Downtown entertainment district with dining and shopping
+- **Cultural District** - Museums including Kimbell Art Museum and Modern Art Museum
+- **Fort Worth Zoo** - One of the top zoos in the nation
 
-## Local Attractions
+### Entertainment & Events
+- **Dickies Arena** - Major concerts, sports, and events
+- **Billy Bob's Texas** - World's largest honky-tonk
+- **Bass Performance Hall** - Broadway shows and performing arts
+- **Fort Worth Convention Center** - Trade shows and exhibitions
 
-### Towns & Culture
-- **Historic Mining Towns** - Explore Colorado's rich mining heritage
-- **Local Breweries** - Sample craft beer with mountain views
-- **Art Galleries** - Discover local artists and mountain-inspired works
-- **Farmers Markets** - Fresh local produce and handmade goods
+## Family Fun
 
-### Family Fun
-- **Alpine Slides** - Thrilling rides down mountain slopes
-- **Scenic Chairlifts** - Summer rides with panoramic views
-- **Mini Golf** - Family-friendly courses with mountain themes
-- **Horseback Riding** - Guided trail rides through beautiful terrain
+### Outdoor Activities
+- **Trinity Trails** - Miles of hiking and biking paths along the Trinity River
+- **Fort Worth Nature Center** - Wildlife viewing and nature trails
+- **Local Parks** - Numerous parks with playgrounds and picnic areas
+- **Lake Worth** - Swimming, fishing, and water sports
 
-## Seasonal Highlights
+### Unique Experiences
+- **Texas Motor Speedway** - NASCAR races and driving experiences (30 minutes)
+- **Historic Grapevine** - Wine tasting and charming downtown (25 minutes)
+- **Arlington** - Six Flags, AT&T Stadium, Globe Life Field (30 minutes)
 
-### Spring (March - May)
-- Wildflower blooms in lower elevations
-- Moderate hiking weather
-- Fewer crowds at popular attractions
+## Dining & Shopping
 
-### Summer (June - August)
-- Perfect hiking and camping weather
-- All mountain roads and trails open
-- Festival season in mountain towns
+### Local Favorites
+- **Joe T. Garcia's** - Famous Tex-Mex institution
+- **Cattlemen's Steak House** - Authentic steakhouse in the Stockyards
+- **Spiral Diner** - Plant-based comfort food
+- **Local Farmers Markets** - Fresh Texas produce and artisan goods
 
-### Fall (September - November)
-- Spectacular aspen foliage
-- Crisp, clear mountain air
-- Great photography opportunities
+### Shopping
+- **Historic Stockyards** - Western wear and unique gifts
+- **Sundance Square** - Boutiques and specialty shops
+- **Northside** - Trendy neighborhood with local shops and eateries
 
-### Winter (December - February)
-- World-class skiing and snowboarding
-- Winter festivals and events
-- Cozy fireside evenings
+## Seasonal Events
 
-## Planning Your Activities
+### Spring
+- **Fort Worth Stock Show & Rodeo** - World's largest indoor rodeo
+- **Mayfest** - Annual arts festival in Trinity Park
 
-We're here to help you make the most of your mountain adventure! Contact us for:
+### Summer
+- **Concerts in the Garden** - Fort Worth Botanic Garden
+- **Outdoor movies** - Various parks throughout the city
 
-- **Personalized Recommendations** - Activities tailored to your interests
-- **Local Insider Tips** - Hidden gems only locals know about
-- **Equipment Rentals** - Ski gear, bikes, hiking equipment, and more
-- **Reservations** - Help booking tours, restaurants, and activities
+### Fall
+- **State Fair of Texas** - Dallas (45 minutes away)
+- **Oktoberfest** - Various locations in DFW
 
-**Phone:** [(555) 123-4567](tel:5551234567)  
-**Email:** [contact@your-rental-site.com](mailto:contact@your-rental-site.com)
+### Winter
+- **Holiday lights** - Sundance Square and neighborhoods
+- **Ice skating** - Seasonal rinks in downtown Fort Worth
 
-*Let us help you create an unforgettable Colorado mountain experience!*
+## Getting Around
+
+With our prime location near major highways:
+- **I-35** - Easy access north to Denton or south to Austin
+- **I-20** - Quick route east to Dallas or west to Weatherford
+- **US 287** - Direct connection to downtown Fort Worth
+- **DFW Airport** - 45 minutes away
+
+## Planning Your Stay
+
+We're here to help you make the most of your North Texas adventure! Contact us for
