@@ -10,17 +10,17 @@ Where Texas hospitality meets farm life! Escape to our peaceful retreat on nearl
 
 ## Why Choose Us?
 
-- **Nearly 10 Acres** - Plenty of space to roam, explore, and truly escape
-- **On-Site Owners** - We live here and personally facilitate all animal interactions
-- **Guided Farm Experience** - Learn about each animal's personality and enjoy safe, supervised visits
-- **Close to Fort Worth** - Just 20 minutes from downtown while feeling worlds away
-- **Modern Comfort** - Fully equipped accommodations with all amenities
-- **Personal Service** - We're here to make your stay extraordinary
-- **Local Expertise** - Insider knowledge of North Texas attractions and hidden gems
+* 🏡 **Nearly 10 Acres** - Space to roam and escape
+* 👨‍👩‍👧‍👦 **On-Site Owners** - We personally facilitate all animal interactions
+* 🐄 **Farm Animals** - Highland cow, mini horse & chickens
+* 🛣️ **Perfect Location** - Near I-35, I-20 & US 287, 20 mins to Downtown, Dickies Arena, & The Stockyards
+* ✨ **Modern Comfort** - Fully equipped amenities
+* 🤝 **Personal Service** - Extraordinary hospitality
 
 ## Ready to Book?
 
-Contact us today to plan your perfect Texas farm getaway.
+Book your perfect Texas farm getaway today!
 
-**Phone:** [(817) 727-2129](tel:8177272129)  
-**Email:** [homesbyhiggs@gmail.com](mailto:homesbyhiggs@gmail.com)
+<a href="https://higgs.holidayfuture.com/" class="content-button" target="_blank">Book Now</a>
+
+**Questions?** <a href="tel:8177272129">Call us</a> or <a href="mailto:homesbyhiggs@gmail.com">send us an email</a>

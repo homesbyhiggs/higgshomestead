@@ -7,6 +7,7 @@ description = 'Welcome to Higgs Homestead - where Texas hospitality meets farm l
 footer_description = 'Unique Texas farm experience with friendly animals on nearly 10 acres.'
 phone = '(817) 727-2129'
 email = 'homesbyhiggs@gmail.com'
+booking_url = 'https://higgs.holidayfuture.com/'
 
 [params.social]
 instagram = 'https://www.instagram.com/higgshomestead/'

@@ -8,6 +8,7 @@
     <meta name="description" content="{{ .Description | default .Site.Params.description }}">
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -42,9 +43,15 @@
             <div class="footer-section">
                 <h3>Follow Us</h3>
                 <div class="social-links">
-                    <a href="{{ .Site.Params.social.instagram }}" target="_blank">Instagram</a>
-                    <a href="{{ .Site.Params.social.facebook }}" target="_blank">Facebook</a>
-                    <a href="{{ .Site.Params.social.airbnb }}" target="_blank">Airbnb</a>
+                    <a href="{{ .Site.Params.social.instagram }}" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="{{ .Site.Params.social.facebook }}" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="{{ .Site.Params.social.airbnb }}" target="_blank" title="Airbnb">
+                        <i class="fab fa-airbnb"></i>
+                    </a>
                 </div>
             </div>
         </div>
