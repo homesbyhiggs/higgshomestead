@@ -20,14 +20,19 @@ url = '/'
 weight = 1
 
 [[menu.main]]
+name = 'Our Stays'
+url = '/stays'
+weight = 2
+
+[[menu.main]]
 name = 'About'
 url = '/_about'
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = 'Things to Do'
 url = '/_things-to-do'
-weight = 3
+weight = 4
 
 [markup.goldmark.renderer]
 unsafe = true

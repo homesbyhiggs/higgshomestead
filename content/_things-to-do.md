@@ -10,8 +10,8 @@ Located just 20 minutes from downtown Fort Worth with easy access to I-35, I-20,
 ## On-Site Farm Activities
 
 ### Meet Our Animals
-- **Highland Cow Interactions** - Meet our gentle giant and learn about Highland cattle
-- **Mini Horse Visits** - Perfect for all ages, our friendly mini horse loves attention
+- **Highland Cow Interactions** - Meet Ginger and learn about Highland cattle
+- **Mini Horse Visits** - Perfect for all ages, our friendly mini horse Snickerdoodle loves attention
 - **Farm Fresh Chicken Eggs** - Let us know and we can provide you with some farm fresh eggs
 - **Farm Tours** - Explore all 10 acres with our on-site owners as guides
 

@@ -16,16 +16,23 @@
     <header class="header">
         <nav class="nav">
             <div class="nav-brand">
-                <a href="/">Higgs Homestead</a>
+                <a href="/">
+                    <img src="/images/logo-1.png" alt="Higgs Homestead" class="logo">
+                </a>
             </div>
             <div class="nav-menu">
                 
                 <a href="/" class="nav-link">Home</a>
                 
+                <a href="/stays" class="nav-link">Our Stays</a>
+                
                 <a href="/_about" class="nav-link">About</a>
                 
                 <a href="/_things-to-do" class="nav-link">Things to Do</a>
                 
+            </div>
+            <div class="nav-cta">
+                <a href="/stays" class="nav-book-btn">Book Now</a>
             </div>
         </nav>
     </header>
@@ -35,9 +42,26 @@
 <div class="hero-image">
     <img src="/images/homepage/blue-tiny-home-1.webp" alt="Higgs Homestead - Texas farm getaway">
     <div class="hero-content">
-        <h1>Higgs Homestead</h1>
-        <p>Your perfect getaway awaits 20 minutes from downtown Fort Worth, TX</p>
-        <a href="https://higgs.holidayfuture.com/" class="cta-button" target="_blank">Book Now</a>
+        <div class="hero-logo">
+            <img src="/images/logo-2.png" alt="Higgs Homestead" class="hero-logo-img">
+        </div>
+        <h1 class="hero-tagline">Where Texas Hospitality Meets Farm Life</h1>
+
+        
+        <div class="booking-widget-container">
+            <script src="https://d2q3n06xhbi0am.cloudfront.net/widget.js?1640277196"></script>
+            <script>
+                window.searchBar({
+                    baseUrl: 'https://higgshomestead.com/',
+                    showLocation: true,
+                    color: '#e74c3c',
+                    rounded: true,
+                    openInNewTab: true,
+                    font: 'Inter',
+                });
+            </script>
+            <div id="hostaway-booking-widget"></div>
+        </div>
     </div>
 </div>
 
@@ -94,6 +118,19 @@
             <p>&copy; 2025 Higgs Homestead. All rights reserved.</p>
         </div>
     </footer>
+    
+    <script>
+        (function (w, d, e, u, f, l, n) {
+            w[f] = w[f] || function () {
+                (w[f].q = w[f].q || [])
+                    .push(arguments);
+            }, l = d.createElement(e), l.async = 1, l.src = u,
+                n = d.getElementsByTagName(e)[0], n.parentNode.insertBefore(l, n);
+        })
+            (window, document, 'script', 'https://assets.mailerlite.com/js/universal.js', 'ml');
+        ml('account', '1645237');
+    </script>
+    
 </body>
 
 </html>
