@@ -284,45 +284,6 @@ body {
     padding-right: 2rem;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .nav {
-        flex-direction: column;
-        gap: 1rem;
-        position: relative;
-    }
-
-    .nav-brand,
-    .nav-cta {
-        position: static;
-    }
-
-    .nav-menu {
-        margin: 0;
-        gap: 1rem;
-    }
-
-    .hero-content h1 {
-        font-size: 2rem;
-    }
-
-    .hero-content p {
-        font-size: 1rem;
-    }
-
-    .content {
-        padding: 2rem 0;
-    }
-
-    .content h1 {
-        font-size: 2rem;
-    }
-
-    .social-links {
-        flex-wrap: wrap;
-    }
-}
-
 /* Hero Image Container */
 .hero-image {
     position: relative;
@@ -360,26 +321,77 @@ body {
     pointer-events: none;
 }
 
-/* Hero content on top */
+/* Updated Hero content styles */
 .hero-content {
     position: relative;
     z-index: 3;
-    max-width: 900px;
-    /* Increased from 800px */
+    max-width: 800px;
     padding: 0 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* Forces vertical stacking */
+    align-items: center;
+    justify-content: center;
 }
 
-.hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.hero-content p {
-    font-size: 1.2rem;
+.hero-logo {
     margin-bottom: 2rem;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    /* Takes full width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-logo-img {
+    max-height: 100px !important;
+    max-width: 100px !important;
+    width: auto !important;
+    height: auto !important;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.hero-tagline {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    line-height: 1.2;
+    width: 100%;
+    /* Takes full width */
+}
+
+.booking-widget-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 1.5rem 2rem;
+    /* Added more horizontal padding */
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin-top: 2rem;
+    width: 100%;
+    /* Ensures full width */
+}
+
+/* Fix Hostaway widget text visibility */
+#hostaway-booking-widget {
+    color: #333 !important;
+}
+
+#hostaway-booking-widget .calendar-day {
+    color: #333 !important;
+    background: white !important;
+}
+
+#hostaway-booking-widget .calendar-day:hover {
+    background: #e74c3c !important;
+    color: white !important;
+}
+
+#hostaway-booking-widget input {
+    color: #333 !important;
+    background: white !important;
 }
 
 /* Content area button (different from hero button) */
@@ -416,4 +428,50 @@ body {
 .nav-brand a {
     display: flex;
     align-items: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        gap: 1rem;
+        position: relative;
+    }
+
+    .nav-brand,
+    .nav-cta {
+        position: static;
+    }
+
+    .nav-menu {
+        margin: 0;
+        gap: 1rem;
+    }
+
+    .hero-tagline {
+        font-size: 1.5rem;
+        /* Reduced for mobile */
+    }
+
+    .hero-logo-img {
+        max-height: 60px;
+        /* Smaller on mobile */
+    }
+
+    .booking-widget-container {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .content {
+        padding: 2rem 0;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .social-links {
+        flex-wrap: wrap;
+    }
 }
