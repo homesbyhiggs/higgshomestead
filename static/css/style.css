@@ -359,9 +359,12 @@ body {
 }
 
 .hero-logo-simple img {
-    max-width: 200px;
-    height: auto;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
 }
+
+
 
 /* Fix Hostaway widget text visibility */
 #hostaway-booking-widget {
