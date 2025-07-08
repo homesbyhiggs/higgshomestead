@@ -288,7 +288,7 @@ body {
 .hero-image {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -354,17 +354,24 @@ body {
 }
 
 .hero-logo-simple {
-    text-align: center;
-    margin-bottom: 2rem;
+    position: absolute;
+    top: 15%;
+    width: 100px;
+    /* Fixed width container */
+    left: calc(50% - 50px);
+    /* Exactly center the container */
+    z-index: 4;
 }
 
 .hero-logo-simple img {
     width: 80px;
     height: 80px;
     object-fit: contain;
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 1)) drop-shadow(4px 4px 12px rgba(0, 0, 0, 1)) drop-shadow(-2px -2px 8px rgba(0, 0, 0, 0.8));
+    display: block;
+    margin: 0 auto;
+    /* Center the image within its container */
 }
-
-
 
 /* Fix Hostaway widget text visibility */
 #hostaway-booking-widget {
@@ -445,9 +452,10 @@ body {
         /* Reduced for mobile */
     }
 
-    .hero-logo-img {
-        max-height: 40px !important;
-        max-width: 40px !important;
+    .hero-logo-simple img {
+        width: 60px;
+        /* Smaller on mobile */
+        height: 60px;
     }
 
     .booking-widget-container {
