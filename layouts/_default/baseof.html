@@ -11,13 +11,93 @@
         gtag('config', '{{ .Site.Params.googleAnalytics }}');
     </script>
     {{ end }}
+
+    <!-- Basic Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Title and Description -->
+    <title>{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.tagline }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{
+        end }}</title>
     <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+    <meta name="keywords" content="{{ .Site.Params.keywords }}">
+    <meta name="author" content="{{ .Site.Title }}">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:title"
+        content="{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.tagline }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}">
+    <meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card - Commented out for now -->
+    <!--
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ .Permalink }}">
+    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.tagline }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}">
+    <meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}">
+    {{ if .Site.Params.social.twitter }}
+    <meta name="twitter:site" content="@{{ .Site.Params.social.twitter }}">
+    {{ end }}
+    -->
+
+    <!-- Business/Location Meta -->
+    <meta name="geo.region" content="{{ .Site.Params.geo_region }}">
+    <meta name="geo.placename" content="{{ .Site.Params.geo_placename }}">
+    <meta name="geo.position" content="{{ .Site.Params.geo_position }}">
+    <meta name="ICBM" content="{{ .Site.Params.geo_position }}">
+
+    <!-- Business Type -->
+    <meta name="business:contact_data:locality" content="{{ .Site.Params.city }}">
+    <meta name="business:contact_data:region" content="{{ .Site.Params.state }}">
+    <meta name="business:contact_data:postal_code" content="{{ .Site.Params.zip_code }}">
+    <meta name="business:contact_data:country_name" content="{{ .Site.Params.country }}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Structured Data for Local Business -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LodgingBusiness",
+        "name": "{{ .Site.Title }}",
+        "image": "{{ .Site.BaseURL }}{{ .Site.Params.og_image }}",
+        "description": "{{ .Site.Params.description }}",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "{{ .Site.Params.address_line1 }}",
+            "addressLocality": "{{ .Site.Params.city }}",
+            "addressRegion": "{{ .Site.Params.state }}",
+            "postalCode": "{{ .Site.Params.zip_code }}",
+            "addressCountry": "{{ .Site.Params.country }}"
+        },
+        "telephone": "{{ .Site.Params.phone }}",
+        "email": "{{ .Site.Params.email }}",
+        "url": "{{ .Site.BaseURL }}",
+        "sameAs": [
+            "{{ .Site.Params.social.facebook }}",
+            "{{ .Site.Params.social.instagram }}",
+            "{{ .Site.Params.social.airbnb }}"
+        ]
+    }
+    </script>
 </head>
 
 <body>
@@ -34,7 +114,7 @@
                 {{ end }}
             </div>
             <div class="nav-cta">
-                <a href="/stays" class="nav-book-btn">Book Now</a>
+                <a href="{{ .Site.Params.booking_url }}" class="nav-book-btn" target="_blank">Book Now</a>
             </div>
         </nav>
     </header>

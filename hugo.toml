@@ -3,14 +3,29 @@ languageCode = 'en-us'
 title = 'Higgs Homestead'
 
 [params]
-description = 'Welcome to Higgs Homestead - where Texas hospitality meets farm life! Escape to our peaceful retreat and experience the best of both worlds: comfortable accommodations and the joy of interacting with our beloved farm family. Meet our gentle Highland cow, friendly mini horse, and entertaining chickens during your stay. Perfect for families, animal lovers, and anyone seeking a unique Texas getaway that combines relaxation with authentic farm experiences.'
+tagline = "Where Texas Hospitality Meets Farm Life"
+description = "Experience authentic Texas farm life at Higgs Homestead. Book your peaceful getaway with farm activities, cozy accommodations, and genuine hospitality in the heart of Texas."
+keywords = "Texas farm stay, farm getaway, rural vacation, Texas hospitality, farm accommodation, agritourism, Texas retreat"
 footer_description = 'Unique Texas farm experience with friendly animals on nearly 10 acres.'
+
+# Location details
+city = "Fort Worth"
+state = "TX"
+zip_code = "76140"
+country = "US"
+geo_region = "US-TX"
+geo_placename = "Fort Worth, Texas"
+geo_position = "32.605194,-97.2492711"
+#image
+og_image = "/images/og-image.webp"
+
+
 phone = '(817) 727-2129'
 email = 'homesbyhiggs@gmail.com'
 address_line1 = "5365 Banks Rd"
 address_line2 = "Fort Worth, TX 76140"
-booking_url = 'https://higgs.holidayfuture.com/'
-googleAnalytics = 'G-D1YMHHEEMD'                                                                                                                                                                                                                                                                                                                                                                                                                                                         # Replace with your actual ID
+booking_url = 'https://book.higgshomestead.com'
+googleAnalytics = 'G-D1YMHHEEMD'
 
 [params.social]
 instagram = 'https://www.instagram.com/higgshomestead/'
