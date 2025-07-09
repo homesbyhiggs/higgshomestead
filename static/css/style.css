@@ -207,6 +207,20 @@ body {
     line-height: 1.8;
 }
 
+.contact-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.contact-form {
+    margin-top: 2rem;
+}
+
+.ml-embedded {
+    max-width: 100%;
+}
+
 /* Footer */
 .footer {
     background: #2c3e50;
