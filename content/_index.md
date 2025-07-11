@@ -21,6 +21,6 @@ Where Texas hospitality meets farm life! Escape to our peaceful retreat on nearl
 
 Book your perfect Texas farm getaway today!
 
-<a href="https://higgs.holidayfuture.com/" class="content-button" target="_blank">Book Now</a>
+<a href="https://book.higgshomestead.com/" class="content-button" target="_blank">Book Now</a>
 
 **Questions?** <a href="tel:8177272129">Call us</a> or <a href="mailto:homesbyhiggs@gmail.com">send us an email</a>

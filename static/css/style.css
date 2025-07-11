@@ -207,19 +207,24 @@ body {
     line-height: 1.8;
 }
 
+.contact-page main {
+    padding-bottom: 0;
+}
+
 .contact-page {
     max-width: 800px;
     margin: 0 auto;
-    padding: 2rem;
+    padding-bottom: 1rem;
+    /* Add this - adjust value as needed */
 }
 
 .contact-form {
     margin-top: 2rem;
+    margin-bottom: 1rem;
+    /* Add this - adjust value as needed */
 }
 
-.ml-embedded {
-    max-width: 100%;
-}
+
 
 /* Footer */
 .footer {
