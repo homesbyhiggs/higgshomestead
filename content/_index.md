@@ -4,23 +4,10 @@ description: "Your perfect getaway awaits 20 minutes from downtown Fort Worth, T
 hero_image: "/images/homepage/blue-tiny-home-1.webp"
 ---
 
-# Welcome to Higgs Homestead
+# About Higgs Homestead
 
-Where Texas hospitality meets farm life! Escape to our peaceful retreat on nearly 10 acres and experience the best of both worlds: comfortable accommodations and the joy of interacting with our beloved farm family. Meet our gentle Highland cow, friendly mini horse, and entertaining chickens during your stay. Perfect for families, animal lovers, and anyone seeking a unique Texas getaway that combines relaxation with authentic farm experiences.
+**Howdy!** We are a one-of-a-kind micro resort where rustic charm meets modern comfort. Nestled on a scenic farmstead just outside Fort Worth, we offer a peaceful retreat with friendly farm animals and cozy accommodations perfect for both vacationers and staycationers. Wake up to the quiet of the countryside, sip your morning coffee as curious chickens roam the property, and say hello to Ginger, our lovable Highland cow. Snickerdoodle, our spirited mini-horse, is always ready for a snack and some attention.
 
-## Why Choose Us?
-
-* 🏡 **Nearly 10 Acres** - Space to roam and escape
-* 👨‍👩‍👧‍👦 **On-Site Owners** - We personally facilitate all animal interactions
-* 🐄 **Farm Animals** - Highland cow, mini horse & chickens
-* 🛣️ **Perfect Location** - Near I-35, I-20 & US 287, 20 mins to Downtown, Dickies Arena, & The Stockyards
-* ✨ **Modern Comfort** - Fully equipped amenities
-* 🤝 **Personal Service** - Extraordinary hospitality
-
-## Ready to Book?
-
-Book your perfect Texas farm getaway today!
-
-<a href="https://book.higgshomestead.com/" class="content-button" target="_blank">Book Now</a>
-
-**Questions?** <a href="tel:8177272129">Call us</a> or <a href="mailto:homesbyhiggs@gmail.com">send us an email</a>
+* **Nearly 10 Acres** - Space to roam and escape the everyday
+* **Perfect Location** - Less than 30 minutes to Downtown Fort Worth, Dickies Arena, AT&T Stadium and The Stockyards
+* **Personal Service** - On-site owners who facilitate all animal interactions and provide extraordinary hospitality
