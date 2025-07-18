@@ -1,0 +1,54 @@
+{{ define "main" }}
+<div class="container">
+    <article class="article">
+        <header class="article-header">
+            <h1>{{ .Title }}</h1>
+        </header>
+
+        <div class="article-content">
+            <!-- Our Story Section -->
+            <div class="text-image-section image-right">
+                <div class="text-content">
+                    <h2>{{ .Params.story_title }}</h2>
+                    <p>Our property started life in 2016 as the home base for my mother Julie's equine therapy
+                        non-profit, <a href="https://adventuresinriding.org" target="_blank">Adventures in Riding</a>.
+                        For years, we watched the healing power of horses transform lives right here on our land.</p>
+                    <p>In 2022, I found myself looking at all that beautiful open space between our original farmhouse
+                        and the road—and frankly, getting tired of mowing so much lawn! That's when curiosity struck:
+                        what if we shared this peaceful slice of country life with travelers looking for something
+                        special?</p>
+                </div>
+                <div class="image-content">
+                    <img src="{{ .Params.story_image }}" alt="{{ .Params.story_alt }}">
+                    <div class="image-caption">{{ .Params.story_caption }}</div>
+                </div>
+            </div>
+
+            <!-- About the Owner Section -->
+            <div class="text-image-section image-left">
+                <div class="text-content">
+                    <h2>{{ .Params.owner_title }}</h2>
+                    {{ range .Params.owner_content }}
+                    <p>{{ . }}</p>
+                    {{ end }}
+                </div>
+                <div class="image-content">
+                    <img src="{{ .Params.owner_image }}" alt="{{ .Params.owner_alt }}">
+                    <div class="image-caption">{{ .Params.owner_caption }}</div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+
+<!-- Booking Banner -->
+<section class="booking-banner">
+    <div class="container">
+        <div class="booking-banner-content">
+            <h2>Ready to Visit?</h2>
+            <p>Book your perfect Texas farm getaway today!</p>
+            <a href="{{ .Site.Params.booking_url }}" class="banner-cta-button" target="_blank">Book Now</a>
+        </div>
+    </div>
+</section>
+{{ end }}

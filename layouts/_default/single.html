@@ -1,12 +1,25 @@
 {{ define "main" }}
 <div class="container">
     <article class="article">
-        <header class="article-header">
-            <h1>{{ .Title }}</h1>
-        </header>
+
+
         <div class="article-content">
             {{ .Content }}
         </div>
+
+        <!-- Photo Gallery Section - Only shows if gallery is specified -->
+        {{ if .Params.gallery }}
+        <div class="article-gallery">
+            {{ range .Params.gallery }}
+            <div class="gallery-item">
+                <img src="{{ .image }}" alt="{{ .alt | default " Higgs Homestead" }}">
+                {{ if .caption }}
+                <div class="gallery-caption">{{ .caption }}</div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
     </article>
 </div>
 {{ end }}

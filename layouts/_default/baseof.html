@@ -131,13 +131,11 @@
             </div>
             <div class="footer-section">
                 <h3>Contact</h3>
-                <p><strong>Address:</strong>
+                <p><strong>Address:</strong><br>
                     {{ .Site.Params.address_line1 }}<br>
                     {{ .Site.Params.address_line2 }}</p>
-                <p><strong>Phone: <a href="tel:{{ .Site.Params.phone }}">{{ .Site.Params.phone }}</a></p></strong>
-                <strong>
-                    <p>Email: <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
-                </strong>
+                <p><strong>Phone:</strong> <a href="tel:{{ .Site.Params.phone }}">{{ .Site.Params.phone }}</a></p>
+                <p><strong>Email:</strong> <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
             </div>
             <div class="footer-section">
                 <h3>Follow Us</h3>
@@ -155,7 +153,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</p>
+            <p>2016-{{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</p>
         </div>
     </footer>
 
