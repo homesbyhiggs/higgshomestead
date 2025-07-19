@@ -798,6 +798,12 @@ body {
     transform: translateY(-2px);
 }
 
+/* Reviews Section */
+.reviews-section {
+    padding: 60px 0;
+    background: var(--white);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .nav {
