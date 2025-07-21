@@ -804,6 +804,30 @@ body {
     background: var(--white);
 }
 
+/* Stays Introduction Section */
+.stays-intro {
+    text-align: center;
+    padding: 20px 0 40px 0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 50px;
+}
+
+.stays-intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--charcoal);
+    font-weight: 600;
+}
+
+.stays-intro p {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 15px auto;
+    color: #555;
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
     .nav {
@@ -900,5 +924,14 @@ body {
     .listing-info {
         padding: 20px;
         text-align: center;
+    }
+
+    .stays-intro h2 {
+        font-size: 1.8rem;
+    }
+
+    .stays-intro {
+        padding: 15px 0 30px 0;
+        margin-bottom: 30px;
     }
 }

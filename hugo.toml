@@ -38,7 +38,7 @@ url = '/'
 weight = 1
 
 [[menu.main]]
-name = 'Our Stays'
+name = 'Stays'
 url = '/stays'
 weight = 2
 

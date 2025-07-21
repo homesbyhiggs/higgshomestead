@@ -1,0 +1,91 @@
+{{ define "main" }}
+<div class="container">
+    <article class="article">
+        <header class="article-header">
+            <h1>{{ .Title }}</h1>
+        </header>
+
+        <div class="article-content">
+            <!-- Introduction Section -->
+            <div class="stays-intro">
+                <h2>{{ .Params.intro_title }}</h2>
+                {{ range .Params.intro_content }}
+                <p>{{ . }}</p>
+                {{ end }}
+            </div>
+
+            <!-- Tiny Home Section (image on right) -->
+            <div class="text-image-section image-right">
+                <div class="text-content">
+                    <h2>{{ .Params.tiny_home_title }}</h2>
+                    {{ range .Params.tiny_home_content }}
+                    <p>{{ . }}</p>
+                    {{ end }}
+                    <a href="{{ .Params.tiny_home_book_url }}" class="content-button" target="_blank">Book Now</a>
+                </div>
+                <div class="image-content">
+                    <img src="{{ .Params.tiny_home_image }}" alt="{{ .Params.tiny_home_alt }}">
+                    <div class="image-caption">{{ .Params.tiny_home_caption }}</div>
+                </div>
+            </div>
+
+            <!-- Container Home Section (image on left) -->
+            <div class="text-image-section image-left">
+                <div class="text-content">
+                    <h2>{{ .Params.container_home_title }}</h2>
+                    {{ range .Params.container_home_content }}
+                    <p>{{ . }}</p>
+                    {{ end }}
+                    <a href="{{ .Params.container_home_book_url }}" class="content-button" target="_blank">Book Now</a>
+                </div>
+                <div class="image-content">
+                    <img src="{{ .Params.container_home_image }}" alt="{{ .Params.container_home_alt }}">
+                    <div class="image-caption">{{ .Params.container_home_caption }}</div>
+                </div>
+            </div>
+
+            <!-- Farmhouse Section (image on right) -->
+            <div class="text-image-section image-right">
+                <div class="text-content">
+                    <h2>{{ .Params.farmhouse_title }}</h2>
+                    {{ range .Params.farmhouse_content }}
+                    <p>{{ . }}</p>
+                    {{ end }}
+                    <a href="{{ .Params.farmhouse_book_url }}" class="content-button" target="_blank">Book Now</a>
+                </div>
+                <div class="image-content">
+                    <img src="{{ .Params.farmhouse_image }}" alt="{{ .Params.farmhouse_alt }}">
+                    <div class="image-caption">{{ .Params.farmhouse_caption }}</div>
+                </div>
+            </div>
+
+            <!-- Rustic Tiny Home Section (image on left) -->
+            <div class="text-image-section image-left">
+                <div class="text-content">
+                    <h2>{{ .Params.rustic_tiny_home_title }}</h2>
+                    {{ range .Params.rustic_tiny_home_content }}
+                    <p>{{ . }}</p>
+                    {{ end }}
+                    <a href="{{ .Params.rustic_tiny_home_book_url }}" class="content-button" target="_blank">Book
+                        Now</a>
+                </div>
+                <div class="image-content">
+                    <img src="{{ .Params.rustic_tiny_home_image }}" alt="{{ .Params.rustic_tiny_home_alt }}">
+                    <div class="image-caption">{{ .Params.rustic_tiny_home_caption }}</div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+
+<!-- Booking Banner -->
+<section class="booking-banner">
+    <div class="container">
+        <div class="booking-banner-content">
+            <h2>Ready to Book?</h2>
+            <p>Book your perfect Texas farm getaway today!</p>
+            <a href="{{ .Site.Params.booking_url }}" class="banner-cta-button" target="_blank">Book Now</a>
+        </div>
+    </div>
+</section>
+{{ end }}
