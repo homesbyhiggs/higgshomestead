@@ -1,0 +1,39 @@
+{{ define "main" }}
+<style>
+    main {
+        padding-bottom: 0;
+    }
+
+    /* Set max width for Klaviyo form */
+    .klaviyo-form-XbrsBg {
+        max-width: 600px;
+        margin: 30px auto 0 auto;
+        padding-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+        .klaviyo-form-XbrsBg {
+            max-width: 100%;
+            margin-top: 40px;
+            padding-top: 30px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .contact-page .container {
+            padding-top: 20px;
+        }
+    }
+</style>
+
+<div class="contact-page">
+    <div class="container">
+        <div class="content">
+            {{ .Content }}
+        </div>
+
+        <div class="klaviyo-form-XbrsBg"></div>
+    </div>
+</div>
+
+{{ end }}

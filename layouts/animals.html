@@ -1,0 +1,86 @@
+{{ define "main" }}
+<div class="container">
+    <article class="article">
+        <header class="article-header">
+            <h1>{{ .Title }}</h1>
+        </header>
+
+        <div class="article-content">
+            <!-- Introduction Section -->
+            <div class="stays-intro">
+                <h2>{{ .Params.intro_title }}</h2>
+                {{ range .Params.intro_content }}
+                <p>{{ . }}</p>
+                {{ end }}
+            </div>
+
+            <!-- Highland Cow Section (image on right) -->
+            <div class="text-image-section image-right">
+                <div class="text-content">
+                    <h2>{{ .Params.highland_cow_title }}</h2>
+                    {{ range .Params.highland_cow_content }}
+                    <p>{{ . }}</p>
+                    {{ end }}
+                </div>
+                <div class="image-content">
+                    <img src="{{ .Params.highland_cow_image }}" alt="{{ .Params.highland_cow_alt }}">
+                    <div class="image-caption">{{ .Params.highland_cow_caption }}</div>
+                </div>
+            </div>
+
+            <!-- Mini Horse Section (image on left) -->
+            <div class="text-image-section image-left">
+                <div class="text-content">
+                    <h2>{{ .Params.mini_horse_title }}</h2>
+                    {{ range .Params.mini_horse_content }}
+                    <p>{{ . }}</p>
+                    {{ end }}
+                </div>
+                <div class="image-content">
+                    <img src="{{ .Params.mini_horse_image }}" alt="{{ .Params.mini_horse_alt }}">
+                    <div class="image-caption">{{ .Params.mini_horse_caption }}</div>
+                </div>
+            </div>
+
+            <!-- Chickens Section (image on right) -->
+            <div class="text-image-section image-right">
+                <div class="text-content">
+                    <h2>{{ .Params.chickens_title }}</h2>
+                    {{ range .Params.chickens_content }}
+                    <p>{{ . }}</p>
+                    {{ end }}
+                </div>
+                <div class="image-content">
+                    <img src="{{ .Params.chickens_image }}" alt="{{ .Params.chickens_alt }}">
+                    <div class="image-caption">{{ .Params.chickens_caption }}</div>
+                </div>
+            </div>
+
+            <!-- Farm Tours Section (image on left) -->
+            <div class="text-image-section image-left">
+                <div class="text-content">
+                    <h2>{{ .Params.farm_tours_title }}</h2>
+                    {{ range .Params.farm_tours_content }}
+                    <p>{{ . }}</p>
+                    {{ end }}
+                </div>
+                <div class="image-content">
+                    <img src="{{ .Params.farm_tours_image }}" alt="{{ .Params.farm_tours_alt }}">
+                    <div class="image-caption">{{ .Params.farm_tours_caption }}</div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+
+<!-- Booking Banner -->
+<section class="booking-banner">
+    <div class="container">
+        <div class="booking-banner-content">
+            <h2>Ready to Meet the Gang?</h2>
+            <p>Book your stay and experience authentic farm life!</p>
+            <a href="{{ .Site.Params.booking_url }}" class="banner-cta-button" target="_blank">Book Now</a>
+        </div>
+    </div>
+</section>
+{{ end }}
