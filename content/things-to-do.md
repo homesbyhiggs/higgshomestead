@@ -40,7 +40,7 @@ globe_life:
 
 modern_art:
   title: "Modern Art Museum of Fort Worth"
-  description: "Contemporary art in a stunning glass building designed by Tadao Ando, featuring rotating exhibitions and a permanent collection. Free on Fridays, half-price on sunday. Right next to the Kimble and Amon Carter museums."
+  description: "Contemporary art in a stunning glass building designed by Tadao Ando, featuring rotating exhibitions and a permanent collection. Free on Fridays, half-price on Sunday. Right next to the Kimbell and Amon Carter museums."
   link: "https://www.themodern.org/"
   image: "/images/attractions/modern.webp"
   alt: "Modern Art Museum of Fort Worth"

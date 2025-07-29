@@ -48,8 +48,8 @@ url = '/animals'
 weight = 3
 
 [[menu.main]]
-name = 'About'
-url = '/about'
+name = 'Blog'
+url = 'blog'
 weight = 4
 
 [[menu.main]]
