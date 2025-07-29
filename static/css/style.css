@@ -860,6 +860,230 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Things to Do Page Specific Styles */
+.things-intro {
+    text-align: center;
+    padding: 20px 0 40px 0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 50px;
+}
+
+.things-intro p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+}
+
+/* Activities Section */
+.activities-section {
+    margin: 40px 0;
+    padding: 30px 0;
+    background: var(--light-brown);
+    border-radius: 12px;
+}
+
+.activities-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--charcoal);
+}
+
+.activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.activity-item {
+    background: var(--white);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.activity-item h3 {
+    color: var(--olive-green);
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.activity-item p {
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Featured Attractions Section */
+.featured-attractions {
+    margin: 60px 0;
+}
+
+.featured-attractions h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--charcoal);
+    font-size: 2.2rem;
+}
+
+/* Other Attractions Lists */
+.other-attractions {
+    margin: 60px 0;
+}
+
+.attractions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.attraction-category {
+    background: var(--white);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.attraction-category h3 {
+    color: var(--olive-green);
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    border-bottom: 2px solid var(--light-brown);
+    padding-bottom: 10px;
+}
+
+.attraction-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.attraction-category li {
+    margin-bottom: 12px;
+    padding-left: 0;
+    line-height: 1.5;
+}
+
+.attraction-category a {
+    color: var(--olive-green);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.attraction-category a:hover {
+    color: var(--dark-olive);
+    text-decoration: underline;
+}
+
+/* Dining Section */
+.dining-section {
+    margin: 60px 0;
+    padding: 40px 0;
+    background: var(--light-brown);
+    border-radius: 12px;
+}
+
+.dining-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--charcoal);
+}
+
+.dining-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.dining-category {
+    background: var(--white);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dining-category h3 {
+    color: var(--olive-green);
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    border-bottom: 2px solid var(--light-brown);
+    padding-bottom: 10px;
+}
+
+.dining-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dining-category li {
+    margin-bottom: 10px;
+    padding-left: 0;
+    line-height: 1.5;
+}
+
+.dining-category a {
+    color: var(--olive-green);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.dining-category a:hover {
+    color: var(--dark-olive);
+    text-decoration: underline;
+}
+
+/* Planning Section */
+.planning-section {
+    margin: 60px 0 40px 0;
+    padding: 30px;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.planning-section h2 {
+    color: var(--charcoal);
+    margin-bottom: 20px;
+}
+
+.planning-section p {
+    margin-bottom: 25px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-details p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.contact-details a {
+    color: var(--olive-green);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-details a:hover {
+    color: var(--dark-olive);
+    text-decoration: underline;
+}
+
+
+
 /* Responsive */
 @media (max-width: 768px) {
 
@@ -868,6 +1092,30 @@ body {
     .header-logo,
     .navbar-brand img {
         display: none !important;
+    }
+
+    .attractions-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .dining-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .activities-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .contact-details {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .featured-attractions h2 {
+        font-size: 1.8rem;
     }
 
     .listings-grid {

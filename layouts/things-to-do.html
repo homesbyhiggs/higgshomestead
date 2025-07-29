@@ -1,0 +1,187 @@
+{{ define "main" }}
+<div class="container">
+    <article class="article">
+        <header class="article-header">
+            <h1>{{ .Title }}</h1>
+        </header>
+
+        <div class="article-content">
+            <!-- Introduction -->
+            <div class="things-intro">
+                <p>{{ .Params.intro_text }}</p>
+            </div>
+
+            <!-- On-Site Activities -->
+            <section class="activities-section">
+                <h2>On-Site Farm Activities</h2>
+                <div class="activities-grid">
+                    {{ range .Params.farm_activities }}
+                    <div class="activity-item">
+                        <h3>{{ .title }}</h3>
+                        <p>{{ .description }}</p>
+                    </div>
+                    {{ end }}
+                </div>
+            </section>
+
+            <!-- Featured Attractions with Photos -->
+            <section class="featured-attractions">
+                <h2>Featured Fort Worth Attractions</h2>
+
+                <!-- Trinity Trails -->
+                <div class="text-image-section image-right">
+                    <div class="text-content">
+                        <h3>{{ .Params.trinity_trails.title }}</h3>
+                        <p>{{ .Params.trinity_trails.description }}</p>
+                        <a href="{{ .Params.trinity_trails.link }}" class="content-button" target="_blank">Learn
+                            More</a>
+                    </div>
+                    <div class="image-content">
+                        <img src="{{ .Params.trinity_trails.image }}" alt="{{ .Params.trinity_trails.alt }}">
+                        <div class="image-caption">{{ .Params.trinity_trails.caption }}</div>
+                    </div>
+                </div>
+
+                <!-- Fort Worth Stockyards -->
+                <div class="text-image-section image-left">
+                    <div class="text-content">
+                        <h3>{{ .Params.stockyards.title }}</h3>
+                        <p>{{ .Params.stockyards.description }}</p>
+                        <a href="{{ .Params.stockyards.link }}" class="content-button" target="_blank">Learn More</a>
+                    </div>
+                    <div class="image-content">
+                        <img src="{{ .Params.stockyards.image }}" alt="{{ .Params.stockyards.alt }}">
+                        <div class="image-caption">{{ .Params.stockyards.caption }}</div>
+                    </div>
+                </div>
+
+                <!-- Billy Bob's Texas -->
+                <div class="text-image-section image-right">
+                    <div class="text-content">
+                        <h3>{{ .Params.billy_bobs.title }}</h3>
+                        <p>{{ .Params.billy_bobs.description }}</p>
+                        <a href="{{ .Params.billy_bobs.link }}" class="content-button" target="_blank">Learn More</a>
+                    </div>
+                    <div class="image-content">
+                        <img src="{{ .Params.billy_bobs.image }}" alt="{{ .Params.billy_bobs.alt }}">
+                        <div class="image-caption">{{ .Params.billy_bobs.caption }}</div>
+                    </div>
+                </div>
+
+                <!-- Globe Life Field -->
+                <div class="text-image-section image-left">
+                    <div class="text-content">
+                        <h3>{{ .Params.globe_life.title }}</h3>
+                        <p>{{ .Params.globe_life.description }}</p>
+                        <a href="{{ .Params.globe_life.link }}" class="content-button" target="_blank">Learn More</a>
+                    </div>
+                    <div class="image-content">
+                        <img src="{{ .Params.globe_life.image }}" alt="{{ .Params.globe_life.alt }}">
+                        <div class="image-caption">{{ .Params.globe_life.caption }}</div>
+                    </div>
+                </div>
+
+                <!-- Modern Art Museum -->
+                <div class="text-image-section image-right">
+                    <div class="text-content">
+                        <h3>{{ .Params.modern_art.title }}</h3>
+                        <p>{{ .Params.modern_art.description }}</p>
+                        <a href="{{ .Params.modern_art.link }}" class="content-button" target="_blank">Learn More</a>
+                    </div>
+                    <div class="image-content">
+                        <img src="{{ .Params.modern_art.image }}" alt="{{ .Params.modern_art.alt }}">
+                        <div class="image-caption">{{ .Params.modern_art.caption }}</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Other Attractions Lists -->
+            <section class="other-attractions">
+                <div class="attractions-grid">
+                    <div class="attraction-category">
+                        <h3>Historic & Cultural</h3>
+                        <ul>
+                            {{ range .Params.historic_cultural }}
+                            <li><a href="{{ .link }}" target="_blank">{{ .name }}</a> - {{ .description }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+
+                    <div class="attraction-category">
+                        <h3>Entertainment & Events</h3>
+                        <ul>
+                            {{ range .Params.entertainment }}
+                            <li><a href="{{ .link }}" target="_blank">{{ .name }}</a> - {{ .description }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+
+                    <div class="attraction-category">
+                        <h3>Professional Sports</h3>
+                        <ul>
+                            {{ range .Params.sports }}
+                            <li><a href="{{ .link }}" target="_blank">{{ .name }}</a> - {{ .description }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+
+                    <div class="attraction-category">
+                        <h3>Family Fun</h3>
+                        <ul>
+                            {{ range .Params.family_fun }}
+                            <li><a href="{{ .link }}" target="_blank">{{ .name }}</a> - {{ .description }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Dining & Coffee -->
+            <section class="dining-section">
+                <h2>Dining & Shopping</h2>
+                <div class="dining-grid">
+                    <div class="dining-category">
+                        <h3>Local Favorites</h3>
+                        <ul>
+                            {{ range .Params.dining }}
+                            <li><a href="{{ .link }}" target="_blank">{{ .name }}</a> - {{ .description }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+
+                    <div class="dining-category">
+                        <h3>Owner's Favorite Coffee Shops</h3>
+                        <ul>
+                            {{ range .Params.coffee }}
+                            <li><a href="{{ .link }}" target="_blank">{{ .name }}</a> - {{ .description }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Info -->
+            <section class="planning-section">
+                <h2>Planning Your Stay</h2>
+                <p>{{ .Params.planning_text }}</p>
+                <div class="contact-details">
+                    <p><strong>Phone:</strong> <a href="tel:{{ .Site.Params.phone }}">{{ .Site.Params.phone }}</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+                    </p>
+                </div>
+            </section>
+        </div>
+    </article>
+</div>
+
+<!-- Booking Banner -->
+<section class="booking-banner">
+    <div class="container">
+        <div class="booking-banner-content">
+            <h2>Ready to Explore?</h2>
+            <p>Book your stay and discover all North Texas has to offer!</p>
+            <a href="{{ .Site.Params.booking_url }}" class="banner-cta-button" target="_blank">Book Now</a>
+        </div>
+    </div>
+</section>
+{{ end }}
