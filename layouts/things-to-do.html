@@ -28,20 +28,6 @@
             <section class="featured-attractions">
                 <h2>Featured Fort Worth Attractions</h2>
 
-                <!-- Trinity Trails -->
-                <div class="text-image-section image-right">
-                    <div class="text-content">
-                        <h3>{{ .Params.trinity_trails.title }}</h3>
-                        <p>{{ .Params.trinity_trails.description }}</p>
-                        <a href="{{ .Params.trinity_trails.link }}" class="content-button" target="_blank">Learn
-                            More</a>
-                    </div>
-                    <div class="image-content">
-                        <img src="{{ .Params.trinity_trails.image }}" alt="{{ .Params.trinity_trails.alt }}">
-                        <div class="image-caption">{{ .Params.trinity_trails.caption }}</div>
-                    </div>
-                </div>
-
                 <!-- Fort Worth Stockyards -->
                 <div class="text-image-section image-left">
                     <div class="text-content">
@@ -94,6 +80,20 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Trinity Trails -->
+            <div class="text-image-section image-left">
+                <div class="text-content">
+                    <h3>{{ .Params.trinity_trails.title }}</h3>
+                    <p>{{ .Params.trinity_trails.description }}</p>
+                    <a href="{{ .Params.trinity_trails.link }}" class="content-button" target="_blank">Learn
+                        More</a>
+                </div>
+                <div class="image-content">
+                    <img src="{{ .Params.trinity_trails.image }}" alt="{{ .Params.trinity_trails.alt }}">
+                    <div class="image-caption">{{ .Params.trinity_trails.caption }}</div>
+                </div>
+            </div>
 
             <!-- Other Attractions Lists -->
             <section class="other-attractions">

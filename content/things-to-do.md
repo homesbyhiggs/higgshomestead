@@ -28,7 +28,7 @@ billy_bobs:
   link: "https://billybobstexas.com/"
   image: "/images/attractions/billybobs.webp"
   alt: "Billy Bob's Texas honky-tonk"
-  caption: "World's largest honky-tonk"
+  caption: "World's largest honky-tonk - Photo by Scott McKittrick"
 
 globe_life:
   title: "Globe Life Field"
@@ -40,7 +40,7 @@ globe_life:
 
 modern_art:
   title: "Modern Art Museum of Fort Worth"
-  description: "Contemporary art in a stunning glass building designed by Tadao Ando, featuring rotating exhibitions and a permanent collection. Right next to the Kimble and Amon Carter museums."
+  description: "Contemporary art in a stunning glass building designed by Tadao Ando, featuring rotating exhibitions and a permanent collection. Free on Fridays, half-price on sunday. Right next to the Kimble and Amon Carter museums."
   link: "https://www.themodern.org/"
   image: "/images/attractions/modern.webp"
   alt: "Modern Art Museum of Fort Worth"
