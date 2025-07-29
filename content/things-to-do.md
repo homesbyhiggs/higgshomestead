@@ -9,17 +9,10 @@ intro_text: "Located just 20 minutes from downtown Fort Worth with easy access t
 farm_activities:
   - title: "Meet Our Animals"
     description: "Highland Cow Interactions, Mini Horse Visits, and Farm Fresh Chicken Eggs"
-  - title: "Farm Tours"
-    description: "Explore all 10 acres with our on-site owners as guides"
+  - title: "Tiny Home & Homesteading Questions"
+    description: "Ask the owner about building methods, homestead life, and his hands-on experience"
 
 # Featured Attractions with Photos
-trinity_trails:
-  title: "Trinity Trails"
-  description: "Miles of hiking and biking paths along the Trinity River, perfect for outdoor enthusiasts looking to explore Fort Worth's natural beauty."
-  link: "https://trinitytrailsfw.com/"
-  image: "/images/attractions/trinity.webp"
-  alt: "Trinity Trails along the Trinity River"
-  caption: "Scenic trails perfect for hiking and biking"
 
 stockyards:
   title: "Fort Worth Stockyards"
@@ -31,7 +24,7 @@ stockyards:
 
 billy_bobs:
   title: "Billy Bob's Texas"
-  description: "The world's largest honky-tonk featuring live country music, dancing, and authentic Texas nightlife entertainment."
+  description: "The world's largest honky-tonk featuring live country music, dancing, and authentic Texas nightlife entertainment. Bull riding every Friday and Saturday night!"
   link: "https://billybobstexas.com/"
   image: "/images/attractions/billybobs.webp"
   alt: "Billy Bob's Texas honky-tonk"
@@ -47,11 +40,19 @@ globe_life:
 
 modern_art:
   title: "Modern Art Museum of Fort Worth"
-  description: "Contemporary art in a stunning glass building designed by Tadao Ando, featuring rotating exhibitions and a permanent collection."
+  description: "Contemporary art in a stunning glass building designed by Tadao Ando, featuring rotating exhibitions and a permanent collection. Right next to the Kimble and Amon Carter museums."
   link: "https://www.themodern.org/"
   image: "/images/attractions/modern.webp"
   alt: "Modern Art Museum of Fort Worth"
   caption: "Contemporary art in architectural beauty"
+
+trinity_trails:
+  title: "Trinity Trails"
+  description: "Miles of hiking and biking paths along the Trinity River, perfect for outdoor enthusiasts looking to explore Fort Worth's natural beauty. Be sure to check out the Clearfork Farmers Market on Saturdays."
+  link: "https://trinitytrailsfw.com/"
+  image: "/images/attractions/trinity.webp"
+  alt: "Trinity Trails along the Trinity River"
+  caption: "Scenic trails perfect for hiking and biking"
 
 # Other Attractions
 historic_cultural:
