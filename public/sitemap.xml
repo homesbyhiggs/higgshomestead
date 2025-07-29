@@ -19,6 +19,8 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/animals/</loc>
+  </url><url>
     <loc>http://localhost:1313/stays/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>

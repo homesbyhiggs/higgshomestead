@@ -4,7 +4,7 @@ description: "Meet the friendly farm animals at Higgs Homestead - Highland cow G
 layout: "animals"
 
 # Introduction Section
-intro_title: "Meet Your Farm Friends"
+# intro_title: "Meet Your Farm Friends"
 intro_content:
   - "Our farm animals aren't just part of the scenery - they're the heart of the Higgs Homestead experience. Each has their own personality and story, and they love meeting new friends."
   - "All animal interactions are facilitated by our on-site owners to ensure both guest and animal safety while creating memorable experiences."
@@ -21,8 +21,8 @@ highland_cow_caption: "Ginger enjoying a sunny day on the homestead"
 # Mini Horse (image on left)
 mini_horse_title: "Snickerdoodle - Our Spirited Mini Horse"
 mini_horse_content:
-  - "Don't let her size fool you - Snickerdoodle has a personality bigger than most full-sized horses! She's incredibly social and loves being the center of attention, making her perfect for guests of all ages."
-  - "Mini horses are intelligent and affectionate, and Snickerdoodle exemplifies these traits perfectly. She's learned a few tricks over the years and isn't shy about showing them off for treats. Many guests say meeting Snickerdoodle is the highlight of their stay."
+  - "Don't let his size fool you - Snickerdoodle has a personality bigger than most full-sized horses! He's incredibly social and loves being the center of attention, making him perfect for guests of all ages."
+  - "Mini horses are intelligent and affectionate, and Snickerdoodle exemplifies these traits perfectly. Did you know that mini horses can even be trained to be service animals? Their long lifespan and intelligence make them well suited for caring for their owners!"
 mini_horse_image: "/images/animals/snickerdoodle-mini-horse.webp"
 mini_horse_alt: "Snickerdoodle the Mini Horse"
 mini_horse_caption: "Snickerdoodle always ready for attention and treats"
@@ -31,8 +31,8 @@ mini_horse_caption: "Snickerdoodle always ready for attention and treats"
 chickens_title: "Our Free-Range Chickens"
 chickens_content:
   - "Our chickens roam freely during the day, providing natural pest control and the freshest eggs you've ever tasted. They're curious and friendly, often following guests around the property in hopes of discovering treats."
-  - "There's something magical about starting your morning with chickens pecking around outside your door. We're happy to share farm-fresh eggs with guests - just ask! You might even get to help with the evening routine of guiding them back to their coop."
-chickens_image: "/images/animals/chickens-roaming.webp"
+  - "There's something magical about starting your morning with chickens pecking around outside your door. We're happy to share farm-fresh eggs with guests - just ask!"
+chickens_image: "/images/animals/chickens.webp"
 chickens_alt: "Free-range chickens at Higgs Homestead"
 chickens_caption: "Our chickens enjoying their free-range lifestyle"
 
