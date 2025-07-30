@@ -1,0 +1,87 @@
+{{ define "main" }}
+<div class="container">
+    <article class="blog-post">
+        <header class="blog-post-header">
+            {{ if .Params.featured_image }}
+            <div class="blog-post-image">
+                <img src="{{ .Params.featured_image }}" alt="{{ .Title }}">
+            </div>
+            {{ end }}
+
+            <div class="blog-post-meta">
+                <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                {{ if .Params.categories }}
+                <span class="blog-category">{{ index .Params.categories 0 }}</span>
+                {{ end }}
+                <span class="read-time">{{ .ReadingTime }} min read</span>
+            </div>
+
+            <h1>{{ .Title }}</h1>
+
+            {{ if .Params.excerpt }}
+            <p class="blog-post-excerpt">{{ .Params.excerpt }}</p>
+            {{ end }}
+        </header>
+
+        <div class="blog-post-content">
+            {{ .Content }}
+        </div>
+
+        <footer class="blog-post-footer">
+            {{ if .Params.tags }}
+            <div class="blog-tags">
+                <strong>Tags:</strong>
+                {{ range .Params.tags }}
+                <span class="tag">{{ . }}</span>
+                {{ end }}
+            </div>
+            {{ end }}
+
+            <div class="blog-author">
+                <img src="/images/about/owner.webp" alt="Justin Higgs" class="author-photo">
+                <div class="author-info">
+                    <strong>Justin "Higgs" Highland</strong>
+                    <p>Owner and builder at Higgs Homestead. Passionate about making homeownership attainable and
+                        sharing the realities of farm life.</p>
+                </div>
+            </div>
+        </footer>
+    </article>
+
+    <!-- Related Posts -->
+    {{ $related := .Site.RegularPages.Related . | first 3 }}
+    {{ if $related }}
+    <section class="related-posts">
+        <h2>Related Posts</h2>
+        <div class="related-posts-grid">
+            {{ range $related }}
+            <article class="related-post-card">
+                {{ if .Params.featured_image }}
+                <div class="related-post-image">
+                    <a href="{{ .RelPermalink }}">
+                        <img src="{{ .Params.featured_image }}" alt="{{ .Title }}">
+                    </a>
+                </div>
+                {{ end }}
+                <div class="related-post-content">
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                    <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </section>
+    {{ end }}
+</div>
+
+<!-- Booking Banner -->
+<section class="booking-banner">
+    <div class="container">
+        <div class="booking-banner-content">
+            <h2>Ready to Experience Homestead Life?</h2>
+            <p>Book your stay and see these projects in person!</p>
+            <a href="{{ .Site.Params.booking_url }}" class="banner-cta-button" target="_blank">Book Now</a>
+        </div>
+    </div>
+</section>
+{{ end }}

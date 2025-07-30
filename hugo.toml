@@ -47,10 +47,11 @@ name = 'Our Animals'
 url = '/animals'
 weight = 3
 
-[[menu.main]]
-name = 'Blog'
-url = 'blog'
-weight = 4
+#[[menu.main]]
+#name = 'Blog'
+#url = 'blog'
+#weight = 4
+
 
 [[menu.main]]
 name = 'Things to Do'

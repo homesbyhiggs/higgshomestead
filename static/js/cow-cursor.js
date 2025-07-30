@@ -76,6 +76,7 @@ class AnimalEmojiFireworks {
     }
 
     createFireworks(clickX, clickY) {
+        console.log('createFireworks called with:', clickX, clickY);
         // Create a single large explosion at click point
         this.explodeAt(clickX, clickY);
     }
@@ -96,7 +97,7 @@ class AnimalEmojiFireworks {
             const angle = minAngle + (i / (particleCount - 1)) * (maxAngle - minAngle);
 
             // MUCH higher velocity for dramatic effect
-            const velocity = Math.random() * 150 + 500; // 250-400px velocity!
+            const velocity = Math.random() * 150 + 250; // 250-400px velocity!
             const timeToFall = 2.5; // Longer time for bigger arcs
 
             // Calculate arc trajectory with much larger distances
@@ -137,5 +138,7 @@ class AnimalEmojiFireworks {
 
 // Initialize when page loads
 document.addEventListener('DOMContentLoaded', () => {
-    new AnimalEmojiFireworks();
+    console.log('DOM loaded, initializing fireworks...');
+    const fireworks = new AnimalEmojiFireworks();
+    console.log('Fireworks initialized:', fireworks);
 });

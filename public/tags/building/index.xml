@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Building on Higgs Homestead</title>
+    <link>http://localhost:1313/tags/building/</link>
+    <description>Recent content in Building on Higgs Homestead</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/building/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to Our Homestead Blog</title>
+      <link>http://localhost:1313/blog/welcome-to-our-blog/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/welcome-to-our-blog/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Howdy and welcome to our little corner of the internet!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m Justin, and along with my mother Julie, we&amp;rsquo;ve been building something pretty special here at Higgs Homestead. What started as a base for Julie&amp;rsquo;s equine therapy non-profit has grown into a one-of-a-kind micro resort where folks can experience authentic farm life just 20 minutes from downtown Fort Worth.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-start-a-blog&#34;&gt;Why Start a Blog?&lt;/h2&gt;&#xA;&lt;p&gt;After countless conversations with guests about our building methods, animal care, and the realities of homestead life, I realized there&amp;rsquo;s a hunger for real, honest stories about this lifestyle. Not the polished Instagram version, but the actual day-to-day experiences—the victories, the challenges, and everything in between.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
