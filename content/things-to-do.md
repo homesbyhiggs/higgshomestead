@@ -96,6 +96,9 @@ sports:
   - name: "Dallas Stars"
     link: "https://www.nhl.com/stars"
     description: "NHL games at American Airlines Center in Dallas (45 minutes)"
+  - name: "Dallas Wings"
+    link: "https://wings.wnba.com/"
+    description: "WNBA games at College Park Center in Arlington (30 minutes)"
 
 family_fun:
   - name: "Six Flags Over Texas"
